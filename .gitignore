@@ -1,0 +1,13 @@
+*.log
+.cache
+.DS_Store
+src/.temp
+node_modules
+dist
+.env
+.env.*
+src/assets/images
+.temp
+
+# Local Netlify folder
+.netlifycomponents.99210.json
