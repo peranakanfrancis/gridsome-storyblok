@@ -27,7 +27,7 @@
 
         <CInput
           id="company"
-          placeholder="Enter your message name here"
+          placeholder="Enter your message here"
           type="text"
           v-model="company"
           label="Message"
