@@ -27,10 +27,10 @@
 
         <CInput
           id="company"
-          placeholder="Enter your company name here"
+          placeholder="Enter your message name here"
           type="text"
           v-model="company"
-          label="Company"
+          label="Message"
         />
 
         <button class="button is-primary"> Submit </button>
@@ -59,7 +59,7 @@ export default {
   flex-direction: row-reverse;
   padding-bottom: 20px;
 }
-.contact-us-left { 
+.contact-us-left {
   padding: 0 $desktop-grid-gap;
 }
 
@@ -97,7 +97,7 @@ export default {
 }
 
 @media (max-width: 762px) {
-  .contact-us { 
+  .contact-us {
     display: block;
     margin: 0 auto;
     position: relative;
